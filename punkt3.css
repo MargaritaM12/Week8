@@ -1,0 +1,88 @@
+body {
+    font-size: 20px;
+    font-family: "Roboto", "Arial", sans-serif;
+}
+.nav {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3%;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    grid-gap: 2%;
+    align-items: stretch;
+}
+.block-benefit__header,
+.block-games__games-header,
+.block-possibillity__no-problem-header,
+.block-title__title-header,
+.block-without-computer__robot-header,
+.block-working-hours__work-header {
+    font-weight: 900;
+    font-size: larger;
+    padding-bottom: 5%;
+}
+h1 {
+    margin-left: 13%;
+    font-size: 60px;
+}
+.block-benefit {
+    margin-right: 7%;
+}
+.block-title {
+    display: grid;
+    margin-right: 52%;
+    background-color: #EC615B;
+    height: 233px;
+    width: 352px;
+    justify-items: flex-start;
+    align-content: flex-start;
+    grid-gap: 5%;
+    padding-left: 5%;
+    padding-top: 5%;
+}
+.block-games {
+    margin-left: 41%;
+}
+.block-possibillity {
+    margin-left: 53%;
+}
+.block-working-hours {
+    margin-right: 50%;
+}
+.info {
+    display: flex;
+    margin: 0 -5px;
+}
+.info__buy,
+.info__help,
+.info__possibility,
+.info__shipping {
+    flex: 1 1 auto;
+    margin: 0 5px;
+}
+li {
+    list-style-type: none;
+}
+button {
+    background-color: rgb(103, 26, 255);
+    border-radius: 12px;
+    font-size: 20px;
+    width: 135px;
+    height: 38px;
+    color: white;
+}
+input {
+    width: 323px;
+    height: 50px;
+}
+.block-title__title-header {
+    color: white;
+    font-size: 30px;
+}
+.nav__logo {
+    padding-right: 50%;
+}
